@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div id=palavraCruzada class="cruzadaContainer">
+            <h1 class="titulo">PALAVRAS CRUZADAS!</h1>
+        </div>
+        <div class="dicas">
+            <h1>DICAS</h1>
+                <div id="dicas" class="dicas">
+                    <h1>Dicas !</h1>
+                </div>
+            <button class="btnVerifica" onclick="validar()">VERIFICAR</button>
+        </div>
+    </div>
+
+    <script src="./js/cruzada.js"></script>
 </body>
 </html>
