@@ -28,6 +28,7 @@ for (var linha = 0; linha <= 16; linha++) {
             var vazia = document.createElement('input');
             vazia.className = 'vazia';
             palavraCruzada.appendChild(vazia);
+            vazia.disabled = true;
         }else if (posicao >= 1 && posicao <= 18) {
             var numero = document.createElement('span');
             numero.className = 'numero';

@@ -1,0 +1,12 @@
+.vazia {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.campo {
+    background-color: yellowgreen;
+    height: 30px;
+    width: 30px;
+}
