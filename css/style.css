@@ -1,12 +1,25 @@
 .vazia {
-    height: 30px;
-    width: 30px;
-    background-color: transparent;
-    border: none;
+    width: 3.5vw;
+    height: 3.5vh;
+    background-color: black;
+    border: 1px solid white;
+    opacity: 0;
+    margin: 1px; 
 }
 
 .campo {
-    background-color: yellowgreen;
-    height: 30px;
-    width: 30px;
+    width: 3.5vw;
+    height: 3.5vh;
+    background-color: white;
+    border: 1px solid black;
+    margin: 1px;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
