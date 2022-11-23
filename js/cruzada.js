@@ -38,6 +38,7 @@ for (var linha = 0; linha <= 16; linha++) {
             palavraCruzada.appendChild(input);
             input.maxLength = 1;
             countId++;
+
         } else {
             var vazia = document.createElement('input');
             vazia.className = 'vazia';
@@ -49,6 +50,24 @@ for (var linha = 0; linha <= 16; linha++) {
             palavraCruzada.innerHTML += `<br>`
         }
     }
+}
+
+function validar() {
+    if (c0.value + c1.value + c2.value + c3.value + c12.value + c16.value + c32.value + c38.value + c52.value + c57.value + c60.value + c63.value + c76.value == 'registradores') {
+        c0.style.color = 'green'
+        c2.style.color = 'green'
+        c3.style.color = 'green'
+        c1.style.color = 'green'
+        c12.style.color = 'green'
+        c16.style.color = 'green'
+        c32.style.color = 'green'
+        c38.style.color = 'green'
+        c52.style.color = 'green'
+        c57.style.color = 'green'
+        c60.style.color = 'green'
+        c63.style.color = 'green'
+        c76.style.color = 'green'
+  }
 }
 
 // var tabela = [

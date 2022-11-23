@@ -23,3 +23,9 @@
     width: 80%;
     margin: 0 auto;
 }
+
+.dicas {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
