@@ -6,17 +6,37 @@
     opacity: 0;
     margin: 1px; 
 }
+html {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(../assets/letras.jpg);
+    background-repeat: repeat;
+    backdrop-filter: brightness(0.5);
+    margin: 0;
+    padding: 0;
+}
 
 .campo {
     width: 3.5vw;
     height: 3.5vh;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid rgb(187, 194, 255);
     margin: 1px;
     text-align: center;
     font-size: large;
     font-weight: 600;
     text-transform: uppercase;
+    position: relative;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 0px 19px 0px rgb(255, 255, 212);
+    -moz-box-shadow: -1px 0px 19px 0px rgb(255, 255, 212);
+    box-shadow: -1px 0px 19px 0px rgb(255, 255, 212);
+    color: black;
 }
 
 .container {
@@ -28,4 +48,50 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    background-color: black;
+    border-radius: 10px;
+    padding: 1.9rem;
+}
+
+.numero {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cruzadaContainer {
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.horizontal h1 {
+    text-align: center;
+}
+
+.vertical h1 {
+    text-align: center;
+}
+
+.btnVerifica {
+    padding: 20px 40px;
+    background-color: rgb(255, 201, 74);
+    border: none;
+    border-radius: 3rem;
+    font-weight: 700;
+    font-size: larger;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btnVerifica:hover {
+    scale: 1.1;
+}
+
+.containerBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
